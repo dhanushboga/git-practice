@@ -1,6 +1,8 @@
 #/bin/bash
 
-read -p "enter the first name" str
-read -p "enter the second name" str1
-echo "Hi $str how are you"
-echo "Hi $str1 I am fine"
+person=Dhanush
+person1=siva
+echo "Hi $person how are you"
+echo "Hi $person1 I am fine"
+echo "how is you preparation $person1"
+echo "My devops preparation is fine $person"
