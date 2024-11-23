@@ -2,12 +2,12 @@
 
 echo "enter the word:"
 
-read $word;
+read word;
 
 echo "enter the file name:"
 
-read $filename
+read filename;
 
-count=$(grep -o -w "$word" "$filename" | wc -l)
+count=$(grep -o -w "$word" "$filename"  | wc -l)
 
-echo "entered word is $word and it is $count repeated $filename;
+echo "entered word is $word and it is $count repeated in $filename";
