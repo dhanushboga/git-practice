@@ -3,10 +3,10 @@
 read -p "Enter the number : " num
 
 
-if [[ $num -gt 0 ]]
+if [ $num -gt 0 ]
 then
     echo "it is positive number";
-elif [[ $num -lt 0 ]]
+elif [ $num -lt 0 ]
 then
     echo "it is negative number";
 else
